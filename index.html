@@ -11,17 +11,16 @@
     <h1 class="main-title">Kanban Board</h1>
     <div class="drag-container">
         <ul class="drag-list">
+
             <!-- Backlog Column -->
             <li class="drag-column backlog-column">
                 <span class="header">
                     <h1>Backlog</h1>
                 </span>
                 <!-- Backlog Contet -->
-                <div id="backlog-content">
+                <div id="backlog-content" class='custom-scroll'>
                     <ul id='backlog-list' class="drag-item-list">
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
+   
 
                     </ul>
                 </div>
@@ -39,17 +38,16 @@
                     </div>
                 </div>
             </li>
-
+            
+            <!-- Progress Column -->
             <li class="drag-column progress-column">
                 <span class="header">
-                    <h1>progress</h1>
+                    <h1>Progress</h1>
                 </span>
                 <!-- progress Contet -->
-                <div id="progress-content">
+                <div id="progress-content" class='custom-scroll'>
                     <ul id='progress-list' class="drag-item-list">
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
+          
 
                     </ul>
                 </div>
@@ -68,16 +66,15 @@
                 </div>
             </li>
 
-            <li class="drag-column progress-column">
+            <!-- complete  Column -->
+            <li class="drag-column complete-column">
                 <span class="header">
-                    <h1>Backlog</h1>
+                    <h1>Complete</h1>
                 </span>
-                <!-- Backlog Contet -->
-                <div id="backlog-content">
-                    <ul id='backlog-list' class="drag-item-list">
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
+                <!-- complete Contet -->
+                <div id="complete-content" class='custom-scroll'>
+                    <ul id='complete-list' class="drag-item-list">
+             
 
                     </ul>
                 </div>
@@ -96,17 +93,15 @@
                 </div>
             </li>
 
-            <li class="drag-column backlog-column">
+            <!-- on-hold  Column -->
+            <li class="drag-column on-hold-column">
                 <span class="header">
-                    <h1>Backlog</h1>
+                    <h1>On Hold</h1>
                 </span>
-                <!-- Backlog Contet -->
-                <div id="backlog-content">
-                    <ul id='backlog-list' class="drag-item-list">
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
-                        <li class="drag-item">Testing</li>
-
+                <!-- on-hold Contet -->
+                <div id="on-hold-content" class='custom-scroll'>
+                    <ul id='on-hold-list' class="drag-item-list">
+                
                     </ul>
                 </div>
                 <!-- Add Button Group -->
@@ -123,6 +118,7 @@
                     </div>
                 </div>
             </li>
+        
         </ul>
     </div>
     <!-- Script -->
